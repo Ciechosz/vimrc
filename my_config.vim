@@ -1,1 +1,0 @@
-noremap G G$
