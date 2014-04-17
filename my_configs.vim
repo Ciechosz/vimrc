@@ -2,8 +2,8 @@
 :set tw=80
 :set wrap
 
-try
+if has("win32") || has("win16")
     source ~/.vim_runtime/vimrcs/windows.vim
-    source ~/.vim_runtime/vimrcs/ubuntu.vim
-catch
-endtry
+else
+    source ~/.vim_runtime/vimrcs/linux.vim
+endif
