@@ -1,6 +1,7 @@
 :noremap G G$
 :set tw=80
 :set wrap
+:unmap W
 
 if has("win32") || has("win16")
     source ~/.vim_runtime/vimrcs/windows.vim
